@@ -1,0 +1,17 @@
+export const validationMessages = {
+  requiredName: "Card name is required.",
+  requiredIssuer: "Issuer is required.",
+  requiredCardReference: "Select a card before saving this payment.",
+  requiredDate: "A valid date is required.",
+  numberRequired: "Enter a valid number.",
+  positiveAmount: "Value must be greater than zero.",
+  nonNegativeAmount: "Value cannot be negative.",
+  dayRange: "Day must be between 1 and 31.",
+  promoFieldMismatch: "Promo details must stay empty unless promo APR is active.",
+  deferredInterestFieldMismatch: "Deferred-interest details must stay empty unless deferred-interest mode is active.",
+  customPriorityMissing: "Choose at least one open account for custom priority.",
+  splitBucketMissing: "Add at least one balance bucket before saving split-balance mode.",
+  splitBucketLabelRequired: "Bucket label is required.",
+  splitBucketBalanceRequired: "Bucket balance must be zero or greater.",
+  splitBucketAprRequired: "Bucket APR must be zero or greater.",
+} as const;
